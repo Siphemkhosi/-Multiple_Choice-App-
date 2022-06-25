@@ -1,0 +1,36 @@
+h1{
+ text-align: center;
+
+}
+
+
+.radiobutns{
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+label{
+margin-left: 24px;
+}
+
+button{
+    background-color: rgb(139, 49, 160);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+   
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 600px;
+   
+    cursor: pointer;
+}
+.incorrect{
+    color:red !important;
+}
+
+.correct{
+    color: green !important;
+}
