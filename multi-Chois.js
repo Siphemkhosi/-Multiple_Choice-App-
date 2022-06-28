@@ -1,16 +1,17 @@
 function MultiChoice(){
 
-let correcAnswer = "";
+let que1correcAnswer = "";
+let que2correcAnswer = "";
 
 function correctAnswer(){
-    correcAnswer = "Carnivores"
-    return  correcAnswer;
+    que1correcAnswer = "Carnivores"
+    return  que1correcAnswer;
 }
 
-// function firstIncorrectAnswer(fstIncorrectAnswer){
-//     fstIncorrectAnswer = "Herbivores"
-// return  false;
-// }
+function que2correctAnswer(){
+    que2correcAnswer  = "Lion"
+return  que2correcAnswer ;
+}
 
 // function secondIncorrectAnswer(scndIncorrectAnswer){
 //     scndIncorrectAnswer  = "Omnivores"
@@ -25,7 +26,7 @@ function correctAnswer(){
 
     return{
     correctAnswer,
-    // firstIncorrectAnswer,
+    que2correctAnswer,
     // secondIncorrectAnswer,
     // thirdIncorrectAnswer
     }
